@@ -1,0 +1,65 @@
+/*Portfolio Template Styles*/
+/*
+primary color:
+secondary color:
+third color:
+font colors:
+
+*/
+
+ /*Global Styles*/
+ body, html{
+   margin: 0;
+ }
+ ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+ a{
+   color:inherit;
+   text-decoration: none;
+ }
+
+ h1,h2,h3{
+   margin: 0;
+ }
+
+ /*Header Styles*/
+ header{
+   height: 100px;
+   width: 100%;
+   background-color: #ba33ff;
+ }
+ .logo{
+   width: 400px;
+   height: 100%;
+   float: left;
+ }
+.logo h1{
+   text-align: center;
+   padding: 20px 0px;
+ }
+
+ .menu{
+   height: 100%;
+   width: 400px;
+   float: right;
+ }
+
+.menu ul{
+  position: relative;
+  top: 35px;
+}
+
+ .menu li{
+   display: inline-block;
+   padding: 8px 1px;
+ }
+
+ /*Banner Styles*/
+#banner{
+  height: 300px;
+  width: 100%;
+  background-color: #af32ca
+}
